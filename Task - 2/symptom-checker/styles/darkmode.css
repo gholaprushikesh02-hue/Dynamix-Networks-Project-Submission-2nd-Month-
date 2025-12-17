@@ -1,0 +1,21 @@
+.dark {
+    background: #222 !important;
+    color: white !important;
+}
+
+.dark .container {
+    background: #333 !important;
+}
+
+.dark input {
+    background: #444;
+    color: white;
+}
+
+.dark button {
+    background: #1e88e5;
+}
+
+.dark .result-card {
+    background: #555;
+}

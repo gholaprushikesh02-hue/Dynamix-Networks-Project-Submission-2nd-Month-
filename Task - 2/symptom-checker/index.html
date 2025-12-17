@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/darkmode.css">
+</head>
+<body>
+
+<header>
+    <h1>🩺 Symptom Checker</h1>
+    <button id="theme-toggle">🌙</button>
+</header>
+
+<section class="container">
+    <h2>Enter Your Symptoms</h2>
+
+    <input type="text" id="symptom-input" placeholder="e.g., fever, headache">
+    <button id="check-btn">Check Condition</button>
+
+    <div id="suggestions"></div>
+
+    <h3>Probable Conditions</h3>
+    <div id="results"></div>
+
+    <a href="dashboard.html" class="dashboard-btn">Go to Dashboard</a>
+</section>
+
+<script src="js/theme.js"></script>
+<script src="js/symptoms.js"></script>
+<script src="js/conditions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
